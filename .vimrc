@@ -11,6 +11,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'leafgarland/typescript-vim'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -36,4 +37,6 @@ syntax on
 highlight Pmenu ctermfg=green ctermbg=8
 highlight PmenuSel ctermfg=green ctermbg=7
 set laststatus=2
+set t_Co=256
 colorscheme pixelmuerto
+
